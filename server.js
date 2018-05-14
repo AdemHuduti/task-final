@@ -15,7 +15,7 @@ app.get('/api/info/SA', (req, res) => {
 });
 
 app.get('/api/info/SCC', (req, res) => {
-  const INFO_MO = [
+  const INFO_SCC = [
     {
       id: 1,
       about: 'Sarajevo City Center (SCC) is a business complex and shopping center in downtown Sarajevo, Bosnia and Herzegovina, that consists of three main parts: a state-of-the-art shopping mall and leisure complex, a five star hotel tower and a commercial offices tower.',
@@ -23,11 +23,11 @@ app.get('/api/info/SCC', (req, res) => {
     }
   ];
 
-  res.json(INFO_MO);
+  res.json(INFO_SCC);
 }); 
 
 app.get('/api/info/BBI', (req, res) => {
-  const INFO_TZ = [
+  const INFO_BBI = [
     {
       id: 1,
       about: 'BBI Centar is a shopping mall in the center of Sarajevo. It is one of the largest shopping malls in Bosnia and Herzegovina, stretching to 43,000 square meters. It was opened on April 6, 2009.',
@@ -35,7 +35,7 @@ app.get('/api/info/BBI', (req, res) => {
     }
   ];
 
-  res.json(INFO_TZ);
+  res.json(INFO_BBI);
 });
 
 const port = 5000;
